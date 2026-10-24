@@ -2,7 +2,7 @@
 
 A portable C# / WPF website launcher for Windows. Current version: **1.1.4**.
 
-[**Download for Windows**](https://github.com/donishki/orbit/releases/latest) | [Features](#features) | [Build from source](#build)
+[**Download for Windows — GitHub**](https://github.com/donishki/Orbit/releases/latest) | [**Gitea mirror**](https://git.ptbox.org/dasp/Orbit/releases/latest) | [Features](#features) | [Build from source](#build)
 
 ## Screenshots
 
@@ -25,7 +25,7 @@ A portable C# / WPF website launcher for Windows. Current version: **1.1.4**.
 
 ## Run
 
-Choose a Windows x64 (64-bit) or x86 (32-bit) download from [Releases](https://github.com/donishki/orbit/releases/latest):
+Choose a Windows x64 (64-bit) or x86 (32-bit) download from [Releases](https://github.com/donishki/Orbit/releases/latest):
 
 - **Orbit-Setup-win-x64.exe**: installs Orbit for your Windows account, adds a Start menu shortcut, and offers an optional desktop shortcut. Remove it through Windows Settings > Apps.
 - **Orbit-Portable-win-x64.zip**: extract and run `Orbit.exe`, without installing.
