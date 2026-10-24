@@ -1,4 +1,4 @@
-ORBIT 1.1.3 - WEBSITE SHORTCUTS
+ORBIT 1.1.4 - WEBSITE SHORTCUTS
 Created by Dario P.
 
 Run Orbit.exe. Choose x64 for 64-bit Windows 10/11, or x86 for 32-bit
@@ -24,7 +24,7 @@ NEW IN 1.1
   Importing a library clears undo history. Undo history is not saved on exit.
 - Open collection is available in Manage collections and the right-click menu.
   Opening multiple sites asks for confirmation and opens each distinct URL once.
-- About Orbit displays version 1.1.3 and author Dario P.
+- About Orbit displays version 1.1.4 and author Dario P.
 
 Add, edit, delete, search, and group website cards. Dark mode is optional.
 Website icons are discovered from page metadata, then /favicon.ico.
@@ -60,3 +60,10 @@ dotnet run --project tests/ThemeChecks.csproj
 1.1.2: starts maximized; green outer borders for drag/focus; Dark mode is at the sidebar bottom; About credits Dario P. and 2026.
 
 1.1.3: Orbit naming throughout; website count beside the heading; contextual Undo notice; cleaner library layout.
+
+LICENSE
+Copyright (C) 2026 Dario P.
+Orbit is licensed under the GNU General Public License v3.0 (GPL-3.0-only).
+See LICENSE for the full terms.
+
+1.1.4: GPL-3.0 licensing, license included in distribution packages, and source-sharing cleanup.

@@ -1,6 +1,6 @@
 # Orbit
 
-A portable C# / WPF website launcher for Windows.
+A portable C# / WPF website launcher for Windows. Current version: **1.1.4**.
 
 [**Download for Windows**](https://github.com/donishki/orbit/releases/latest) | [Features](#features) | [Build from source](#build)
 
@@ -51,6 +51,8 @@ Requires Windows and the .NET 8 SDK.
 dotnet publish Orbit.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:DebugType=None -p:DebugSymbols=false -o release
 ```
 
+Include `README.txt` and `LICENSE` alongside the executable when packaging a portable build. Matching source is provided with each release.
+
 For the 32-bit portable build, replace `win-x64` with `win-x86` and use a separate output directory.
 
 ### Build the installer
@@ -76,3 +78,9 @@ dotnet run --project tests/ThemeChecks.csproj
 
 Theme checks include live icon downloads; unavailable sites use fallback icons.
 See [README.txt](README.txt) for detailed controls and release notes.
+
+## License
+
+Copyright (C) 2026 Dario P.
+
+Orbit is licensed under the GNU General Public License v3.0 (GPL-3.0-only). See [LICENSE](LICENSE) for the full terms.
